@@ -2,7 +2,7 @@
 import pandas as pd
 from datetime import datetime,timedelta
 from flask import Flask,render_template, jsonify
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 import joblib
 from flask_cors import CORS
 import plotly.express as px
